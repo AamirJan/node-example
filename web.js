@@ -5,7 +5,7 @@ var app = express();
 
 app.use(logfmt.requestLogger());
 
-app.get('/', function(req, res) {
+app.post('/', function(req, res) {
   res.send('Hello World!');
 });
 
